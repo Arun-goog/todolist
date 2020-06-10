@@ -18,8 +18,6 @@ function submitSignin(callback){
 }
 
 function gotodo(){
-    console.log("alert");
-    alert("valid login");
     window.location="todolist.html";
     
 }
@@ -62,21 +60,15 @@ function call(){
 let counter = 0;
 
 function clickEvent(select){
-    console.log("checler");
 
     var promis = new Promise(function(resolve,reject){
         if(select.checked === true){
             counter++;
-            console.log(counter);
-            console.log("ticked");
             if(counter >4){
                 resolve("congrats!.. 5 Tasks completed!");
             }
         }else{
             counter--;
-            console.log(counter);
-            console.log("unticked");
-
         }
         
     });
