@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+ 
+    <div class="container-fluid" id="loginBackground">
+        <div id="signinform">
+            <h2>Member Login</h2>
+                <form name="formin"> 
+                    
+                    <div id="signinInput">
+                        <i style="float: left;" class="fa fa-fw fa-user"></i>
+                        <input required   type="text" placeholder="Username" id="userNamedata">  
+                    </div>
+                    <div id="signinInput">
+                        <i style="float: left;" class="fa fa-fw fa-lock"></i>
+                        <input required  type="password" placeholder="Password" id="passworddata" > 
+                    </div>                     
+                    <div class="form-check forgot-link d-flex alidn-item-center ">
+                        <input required type="checkbox" class="form-check-input" id="remember">
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <button type="button" onclick="call()">Login</button>
+                </form>         
+        </div>
+    </div>
+    
+<script src="script.js"></script>  
+</body>
+</html>
